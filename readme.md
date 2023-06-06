@@ -62,7 +62,9 @@ After installing the project, you can use the `GptValidator` class to validate a
 You first need to import the necessary classes and create an instance of `GptValidator`:
 
 ```python
-from better_structured_gpt import GptValidator, BaseModel
+from pydantic import BaseModel
+from better_structured_gpt import GptValidator
+
 
 validator = GptValidator()
 ```
