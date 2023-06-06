@@ -50,6 +50,10 @@ The `validate_model` method will return an instance of your Pydantic model, with
 
 Please read the source code and example files for more detailed usage instructions.
 
+## Tests
+
+The tests currently do live calls to the OpenAI API. This is not best practice, instead I should probably add some mocking tests. TODO.
+
 ## Contributing
 
 Contributions are welcome! Please read our [contributing guide](CONTRIBUTING.md).
